@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/component/web/layout/header";
+import Header from "@/component/web/layout/manga/header";
 import { Itim } from 'next/font/google'
 
 export const metadata: Metadata = {

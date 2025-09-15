@@ -1,4 +1,4 @@
-import Header from "@/component/web/layout/header";
+import Header from "@/component/web/layout/manga/header";
 import React from "react";
 
 export default function HomeLayout({ children }: { children: React.ReactNode }) {

@@ -1,10 +1,28 @@
-import Link from "next/link";
+"use client"
+import Link from 'next/link';
+import React from 'react';
 
-export default async function Home() {
+export default function Page() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <Link href="/home" className="border p-2 hover:bg-white/10">Home Page</Link>
+    <div className="flex flex-col space-y-4 p-6 bg-gray-100 rounded-lg shadow-md w-64">
+      <Link 
+        href='/3d'
+        className="block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+      >
+        3D Graphics
+      </Link>
+      <Link 
+        href='/games'
+        className="block px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition"
+      >
+        Games
+      </Link>
+      <Link 
+        href='/manga'
+        className="block px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition"
+      >
+        Read Manga
+      </Link>
     </div>
   );
 }
-
