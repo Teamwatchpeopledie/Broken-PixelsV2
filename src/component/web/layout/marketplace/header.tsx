@@ -4,17 +4,13 @@ import React from "react";
 export default function Header() {
   return (
     <header className="border-b w-full bg-black text-white px-40 py-4 flex items-center justify-between">
-      {/* Logo / Brand */}
       <Link
         href="/"
         className="text-xl font-bold hover:opacity-80 transition-opacity "
       >
         BrokenPixels
       </Link>
-
-      {/* Nav Links */}
       <nav className="flex gap-8">
-        {/* Library Dropdown */}
         <div className="relative group">
           <div className="cursor-pointer hover:text-gray-400 transition-colors">
             Library
@@ -35,7 +31,6 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Genre Dropdown */}
         <div className="relative group">
           <div className="cursor-pointer hover:text-gray-400 transition-colors">
             Genre

@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Page() {
   return (
-    <div className="h-screen flex items-center justify-center gap-6 bg-black text-white">
+    <div className="h-screen flex items-center justify-center gap-6 bg-background text-white">
       {[
         { href: '/3d', label: '3D Graphics' },
         { href: '/games', label: 'Games' },

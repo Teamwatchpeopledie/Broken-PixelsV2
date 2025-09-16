@@ -2,7 +2,7 @@ import React from "react";
 import { FaYoutube, FaDiscord, FaKickstarter } from "react-icons/fa";
 export default function Footer() {
   return (
-    <footer className="w-full bg-black text-white px-8 py-6 mt-10">
+    <footer className="w-full bg-black text-white px-8 py-6 border">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <p className="text-sm text-gray-400">
