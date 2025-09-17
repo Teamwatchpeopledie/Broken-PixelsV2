@@ -1,8 +1,7 @@
-import React from 'react'
-
+import SignUpWidget from "@/component/web/widgets/SignUpWidget"
 function Page() {
   return (
-    <div>Page</div>
+    <SignUpWidget/>
   )
 }
 
