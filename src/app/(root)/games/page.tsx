@@ -1,6 +1,7 @@
+import GameWidget from "@/component/web/widgets/GameWidget";
 
 export default async function page() {
   return (
-    <div>page</div>
+    <GameWidget/>
   )
 }

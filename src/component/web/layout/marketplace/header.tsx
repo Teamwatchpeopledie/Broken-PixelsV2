@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Header() {
   
-  const [typeDropDownActive, setTypeDropDownActive] = useState(true);
+  const [typeDropDownActive, setTypeDropDownActive] = useState(false);
   return (
     <header className="border-b w-full bg-black text-white px-40 py-4 flex items-center justify-between">
       <Link
